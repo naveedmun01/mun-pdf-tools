@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mun PDF Tools</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Mun PDF Tools</h1>
+        <p>Developed by Mun Developers | Contact: +92 3333 155 155 | Near City Court, Nanakwara, Karachi, Pakistan</p>
+    </header>
+
+    <main>
+        <section class="tool">
+            <h2>Merge PDFs</h2>
+            <input type="file" id="mergeFiles" multiple>
+            <button onclick="mergePDFs()">Merge</button>
+        </section>
+
+        <section class="tool">
+            <h2>Split PDF</h2>
+            <input type="file" id="splitFile">
+            <input type="number" id="splitPage" placeholder="Page number">
+            <button onclick="splitPDF()">Split</button>
+        </section>
+
+        <section class="tool">
+            <h2>JPG to PDF</h2>
+            <input type="file" id="jpgFiles" accept="image/jpeg" multiple>
+            <button onclick="jpgToPDF()">Convert</button>
+        </section>
+
+        <section class="tool">
+            <h2>PDF Editor</h2>
+            <input type="file" id="editFile" accept="application/pdf">
+            <button onclick="editPDF()">Edit</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Mun Developers</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf-lib/1.17.1/pdf-lib.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
