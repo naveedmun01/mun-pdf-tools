@@ -1,0 +1,11 @@
+{
+  "name": "mun-pdf-tools",
+  "version": "1.0.0",
+  "description": "PDF tools website like ILovePDF (Merge, Split, JPG to PDF, Edit)",
+  "main": "index.html",
+  "scripts": {
+    "start": "echo 'Open index.html in your browser'"
+  },
+  "author": "Mun Developers",
+  "license": "MIT"
+}
